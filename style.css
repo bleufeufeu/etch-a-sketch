@@ -1,0 +1,50 @@
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2020/08/26/03/23/toy-story-background-5518507_1280.jpg");
+}
+
+#main-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#container {
+    display: flex;
+    border: 50px solid rgb(214, 4, 4);
+    border-radius: 3%;
+    background-color: white;
+    width: 480px;
+    height: 480px;
+    justify-content: center;
+}
+
+button {
+    position: absolute;
+    bottom: 12px;
+    font-family: "Brush Script MT", "Brush Script Std", cursive;
+    font-size: 160%;
+    color: rgb(252, 221, 42);
+    background-color: rgb(214, 4, 4);
+}
+
+#title {
+    position: absolute;
+    top: -10px;
+    font-family: "Brush Script MT", "Brush Script Std", cursive;
+    font-size: 110%;
+    color: rgb(252, 221, 42)
+}
+
+#content {
+    display: flex;
+    background-color: white;
+    width: 480px;
+    height: 480px;
+}
+
+.square {
+    box-sizing: border-box;
+    border: 0.25px solid black;
+}
