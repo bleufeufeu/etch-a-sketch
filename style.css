@@ -18,11 +18,12 @@ body {
     width: 480px;
     height: 480px;
     justify-content: center;
+    position: relative;
 }
 
 button {
     position: absolute;
-    bottom: 12px;
+    bottom: -44px;
     font-family: "Brush Script MT", "Brush Script Std", cursive;
     font-size: 160%;
     color: rgb(252, 221, 42);
@@ -31,7 +32,7 @@ button {
 
 #title {
     position: absolute;
-    top: -10px;
+    top: -68px;
     font-family: "Brush Script MT", "Brush Script Std", cursive;
     font-size: 110%;
     color: rgb(252, 221, 42)
